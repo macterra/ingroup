@@ -31,4 +31,4 @@ for i in ingroup:
     friend = friends[i]
     name = friend['name']
     screen = friend['screen_name']
-    print(f"* {name} ([@{screen}](https://twitter.com/{screen}))")
+    print(f"1. {name} ([@{screen}](https://twitter.com/{screen}))")
