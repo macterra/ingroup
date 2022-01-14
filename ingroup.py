@@ -27,6 +27,12 @@ def getIngroup(core):
 core = ['eigenrobot', 'liminal_warmth', 'visakanv']
 friends, ingroup = getIngroup(core)
 
+print("# ingroup seeds")
+for screen in core:
+    print(f"1. [@{screen}](https://twitter.com/{screen})")
+
+print()
+print("# ingroup")
 for i in ingroup:
     friend = friends[i]
     name = friend['name']
