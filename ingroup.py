@@ -25,8 +25,7 @@ def getIngroup(core):
     return friends, ingroup
 
 def main():
-    #core = ['eigenrobot', 'liminal_warmth', 'visakanv']
-    core = ['goblinodds', 'selentelechia', 'mechanical_monk']
+    core = ['eigenrobot', 'liminal_warmth', 'visakanv', 'goblinodds', 'selentelechia', 'mechanical_monk']
     friends, ingroup = getIngroup(core)
 
     print("# ingroup seeds")
